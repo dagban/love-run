@@ -94,6 +94,20 @@ main {
 /* Footer */
 footer {
     background-color: orange;
+    #social-networks {
+        text-align: center;
+        padding: 20px;
+        display:flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    #social-networks i{
+        font-size: 160%;
+        padding: 5%;
+        color:#3a3a3a;
+
+
+    }
 }
 /* Media query for tablets and larger screens (768 px and up)*/
 @media screen and (min-width:768px) {
@@ -128,6 +142,7 @@ main{
     margin-top:79px;
 }
 }
+
 /* Media query for laptops and larger (992 px and up)*/
 @media screen and (min-width:992px) {
 
